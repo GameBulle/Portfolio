@@ -27,5 +27,9 @@
 * [아이템의 구조](https://github.com/GameBulle/Portfolio/tree/77b74f3bfe9293a1a8bc7134cc0ae5d2c898b686/Project%20L/Item)
   - ItemData는 **ScriptablObject**로 만들었습니다.
  
-* [퀘스트 구조]()
+* [퀘스트 구조](https://github.com/GameBulle/Portfolio/tree/054b0365d7e074bbe04aa518a74d3b0f4f409740/Project%20L/Manager)
   - QuestManager는 **Singleton** 패턴과 **Observer** 패턴으로 구현했습니다.
+ 
+* [세이브와 로드]()
+  - 세이브 데이터는 **플레이어 데이터**와 **옵션 데이터**가 있습니다.
+  - 세이브 파일은 **Json** 파일로 관리합니다.
