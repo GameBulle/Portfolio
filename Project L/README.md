@@ -12,5 +12,5 @@
  * Unity 2021.3.23f1
 
 ## 📌 주요 기능
-* 오브젝트와의 상호작용
+* [오브젝트와의 상호작용](https://github.com/GameBulle/Portfolio/tree/e4ed7863bff8c6a9ae7464c0464d104b4835f008/Project%20L/InteractionObject)
   - ㅁㅁ
