@@ -20,4 +20,8 @@
   - AddInteractionToList() 함수로 오브젝트의 상호작용 정보를 InteractionListUI에 추가하여 보여줍니다.
   - RemoveInteractionToList() 함수로 오브젝트의 상호작용 정보를 InteractionListUI에서 삭제 합니다.
 
-* [플레이어의 동작]()
+* [플레이어의 동작](https://github.com/GameBulle/Portfolio/tree/efd4b7c190a7a0b01f7682f5c7843c0992fe29eb/Project%20L/Player)
+- 플레이어의 이동은 가속도에 따라 애니메이션 간의 전환을 부드럽게 하기 위해 **Input Manager**로 구현했습니다.
+- 플레이어의 이동을 제외한 모든 동작은 **Input System**으로 구현했습니다.
+
+*[몬스터가 Player를 찾는 방법]()
