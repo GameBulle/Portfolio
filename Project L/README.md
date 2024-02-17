@@ -23,3 +23,9 @@
 
 * [몬스터가 플레이어를 찾는 방법](https://github.com/GameBulle/Portfolio/tree/76cf2f6ca2a2eac3ab2e297b1c9cb8758df42b62/Project%20L/Monster)
    - **Physics.OverlapSphere** 함수와 **Physics.Raycast** 함수를 이용합니다.
+
+* [아이템의 구조](https://github.com/GameBulle/Portfolio/tree/77b74f3bfe9293a1a8bc7134cc0ae5d2c898b686/Project%20L/Item)
+  - ItemData는 **ScriptablObject**로 만들었습니다.
+ 
+* [퀘스트 구조]()
+  - QuestManager는 **Singleton** 패턴과 **Observer** 패턴으로 구현했습니다.
