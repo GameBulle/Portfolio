@@ -13,4 +13,4 @@
 
 ## 📌 주요 기능
 * [오브젝트와의 상호작용](https://github.com/GameBulle/Portfolio/tree/e4ed7863bff8c6a9ae7464c0464d104b4835f008/Project%20L/InteractionObject)
-  - ㅁㅁ
+  - 플레이어와 상호작용 가능한 모든 오브젝트들은 [IInteractionable] 인터페이스를 상속 받아 사용합니다.
