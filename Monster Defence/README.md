@@ -15,22 +15,19 @@ Wave 형식의 Defence 게임으로 각 Wave마다 몰려오는 적을 화살을
 ## 🎮 [플레이 영상](https://youtu.be/95uqsvj4cJY?si=Tx1JsnOQAPK4USJT)
 
 ## 📌 주요 기능
-* [오브젝트와의 상호작용](https://github.com/GameBulle/Portfolio/tree/e4ed7863bff8c6a9ae7464c0464d104b4835f008/Project%20L/InteractionObject)
-  - 플레이어와 상호작용 가능한 모든 오브젝트들은 [IInteractionable](https://github.com/GameBulle/Portfolio/tree/b97e50391483a3a8aa8251106ee581167b92c521/Project%20L/Interface) 인터페이스를 상속 받아 사용합니다.
+* [몬스터 설계](https://github.com/GameBulle/Portfolio/tree/9d7dcf5c5d7855b75152de63ad86817eb01a9375/Monster%20Defence/Monster)
+  - 슬라임을 제외한 모든 몬스터는 머리, 상체, 하체 각각 Collider2D를 가집니다.
+  - 충돌된 Collider의 부모의 IDamageable Interface를 참고하여 OnDamage 함수 호출합니다.
 
-* [몬스터 설계](https://github.com/GameBulle/Portfolio/tree/efd4b7c190a7a0b01f7682f5c7843c0992fe29eb/Project%20L/Player)
-  - 플레이어의 이동은 가속도에 따라 애니메이션 간의 전환을 부드럽게 하기 위해 **Input Manager**로 구현했습니다.
-  - 플레이어의 이동을 제외한 모든 동작은 **Input System**으로 구현했습니다.
+* [발사 가능한 화살의 궤적](https://github.com/GameBulle/Portfolio/tree/9d7dcf5c5d7855b75152de63ad86817eb01a9375/Monster%20Defence/Player)
+  - ScreenToWorldPoint 함수로 화면내 마우스 클릭 좌표를 월드 좌표로 변환합니다.
+  - 발사위치와 마우스 클릭 좌표로 벡터를 구한 뒤 Vector2.right로 각도를 구합니다.
 
-* [몬스터가 플레이어를 찾는 방법](https://github.com/GameBulle/Portfolio/tree/76cf2f6ca2a2eac3ab2e297b1c9cb8758df42b62/Project%20L/Monster)
-   - **Physics.OverlapSphere** 함수와 **Physics.Raycast** 함수를 이용합니다.
-
-* [아이템의 구조](https://github.com/GameBulle/Portfolio/tree/77b74f3bfe9293a1a8bc7134cc0ae5d2c898b686/Project%20L/Item)
-  - ItemData는 **ScriptablObject**로 만들었습니다.
+* [오브젝트 풀링](
+https://github.com/GameBulle/Portfolio/tree/9d7dcf5c5d7855b75152de63ad86817eb01a9375/Monster%20Defence/PoolingObject)
+  - 몬스터와 화살은 오브젝트 풀링으로 관리합니다.
  
-* [퀘스트 구조](https://github.com/GameBulle/Portfolio/tree/054b0365d7e074bbe04aa518a74d3b0f4f409740/Project%20L/Manager)
-  - QuestManager는 **Singleton** 패턴과 **Observer** 패턴으로 구현했습니다.
- 
-* [세이브와 로드](https://github.com/GameBulle/Portfolio/tree/07eb6f5b78d449f108974489b93c03c4b5add96d/Project%20L/Option)
-  - 세이브 데이터는 **플레이어 데이터**와 **옵션 데이터**가 있습니다.
-  - 세이브 파일은 **Json** 파일로 관리합니다.
+* [NPC의 몬스터 인식 및 공격](https://github.com/GameBulle/Portfolio/tree/9d7dcf5c5d7855b75152de63ad86817eb01a9375/Monster%20Defence/NPC)
+  - Physics2D.OverlapCircleAll 함수로 제일 가까운 몬스터를 탐색합니다.
+  - 탐색된 몬스터가 활의 최대 각도에 벗어나면 그 몬스터의 Y축 으로 이동합니다.
+  - 해당 NPC가 소지한 화살의 최소 관통력과 최대 관통력 사이의 랜덤한 관통력까지 차지 후 화살 발사합니다.
