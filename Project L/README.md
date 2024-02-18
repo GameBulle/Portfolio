@@ -10,6 +10,7 @@
 ## 📺 개발 환경
  * C#
  * Unity 2021.3.23f1
+ * Visual Studio
 
 ## 🎮 [플레이 영상](https://youtu.be/jm4Of-qw4fg?si=Mu-XHQoeK6xqdw9B)
 
