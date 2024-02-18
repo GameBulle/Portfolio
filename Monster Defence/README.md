@@ -18,7 +18,7 @@ Wave 형식의 Defence 게임으로 각 Wave마다 몰려오는 적을 화살을
 * [오브젝트와의 상호작용](https://github.com/GameBulle/Portfolio/tree/e4ed7863bff8c6a9ae7464c0464d104b4835f008/Project%20L/InteractionObject)
   - 플레이어와 상호작용 가능한 모든 오브젝트들은 [IInteractionable](https://github.com/GameBulle/Portfolio/tree/b97e50391483a3a8aa8251106ee581167b92c521/Project%20L/Interface) 인터페이스를 상속 받아 사용합니다.
 
-* [플레이어의 동작](https://github.com/GameBulle/Portfolio/tree/efd4b7c190a7a0b01f7682f5c7843c0992fe29eb/Project%20L/Player)
+* [몬스터 설계](https://github.com/GameBulle/Portfolio/tree/efd4b7c190a7a0b01f7682f5c7843c0992fe29eb/Project%20L/Player)
   - 플레이어의 이동은 가속도에 따라 애니메이션 간의 전환을 부드럽게 하기 위해 **Input Manager**로 구현했습니다.
   - 플레이어의 이동을 제외한 모든 동작은 **Input System**으로 구현했습니다.
 
