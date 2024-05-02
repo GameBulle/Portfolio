@@ -15,8 +15,8 @@
 ## 🎮 [플레이 영상](https://youtu.be/85Ao4Fnz07Q?si=we41TdZzw4ykdpDR)
 
 ## 📌 주요 기능
-* [오브젝트와의 상호작용](https://github.com/GameBulle/Portfolio/tree/e4ed7863bff8c6a9ae7464c0464d104b4835f008/Project%20L/InteractionObject)
-  - 플레이어와 상호작용 가능한 모든 오브젝트들은 [IInteractionable](https://github.com/GameBulle/Portfolio/tree/b97e50391483a3a8aa8251106ee581167b92c521/Project%20L/Interface) 인터페이스를 상속 받아 사용합니다.
+* [랜덤 스킬 뽑기 및 스킬 레벨업, 새로운 스킬 추가](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)
+  - [WeaponDataManager](https://github.com/GameBulle/Portfolio/tree/b97e50391483a3a8aa8251106ee581167b92c521/Project%20L/Interface)에서 스킬을 관리합니다.
 
 * [플레이어의 동작](https://github.com/GameBulle/Portfolio/tree/efd4b7c190a7a0b01f7682f5c7843c0992fe29eb/Project%20L/Player)
   - 플레이어의 이동은 가속도에 따라 애니메이션 간의 전환을 부드럽게 하기 위해 **Input Manager**로 구현했습니다.
