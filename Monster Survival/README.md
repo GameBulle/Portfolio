@@ -18,9 +18,9 @@
 * 랜덤 스킬 뽑기 및 스킬 레벨업, 새로운 스킬 추가
   - [WeaponDataManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)에서 모든 스킬을 관리합니다.
 
-* [플레이어의 동작](https://github.com/GameBulle/Portfolio/tree/efd4b7c190a7a0b01f7682f5c7843c0992fe29eb/Project%20L/Player)
-  - 플레이어의 이동은 가속도에 따라 애니메이션 간의 전환을 부드럽게 하기 위해 **Input Manager**로 구현했습니다.
-  - 플레이어의 이동을 제외한 모든 동작은 **Input System**으로 구현했습니다.
+* 캐릭터 해금
+  - [AchievementManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)에서 캐릭터 해금 조건을 계속 체크합니다.
+  - 캐릭터 해금 조건을 만족 했다면 갱신된 정보를 [CharacterManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)로 전달합니다.
 
 * [몬스터가 플레이어를 찾는 방법](https://github.com/GameBulle/Portfolio/tree/76cf2f6ca2a2eac3ab2e297b1c9cb8758df42b62/Project%20L/Monster)
    - **Physics.OverlapSphere** 함수와 **Physics.Raycast** 함수를 이용합니다.
