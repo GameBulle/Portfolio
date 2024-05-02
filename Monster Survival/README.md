@@ -20,7 +20,7 @@
 
 * 캐릭터 해금
   - [AchievementManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)에서 캐릭터 해금 조건을 계속 체크합니다.
-  - 캐릭터 해금 조건을 만족 했다면 갱신된 정보를 [CharacterManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)로 전달합니다.  [옵저버 패턴](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Interface)
+  - 캐릭터 해금 조건을 만족 했다면 갱신된 정보를 [CharacterManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)로 전달합니다.  ([옵저버 패턴])(https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Interface)
 
 * [몬스터가 플레이어를 찾는 방법](https://github.com/GameBulle/Portfolio/tree/76cf2f6ca2a2eac3ab2e297b1c9cb8758df42b62/Project%20L/Monster)
    - **Physics.OverlapSphere** 함수와 **Physics.Raycast** 함수를 이용합니다.
