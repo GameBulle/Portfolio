@@ -29,5 +29,5 @@
    - 경험치 흡수는 **Vector3.Lerp** 함수를 이용합니다.
 
 * Firebase를 이용한 Login 기능과 Realtime Database 관리
- - [FirebaseManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)에서 계정 생성, 로그인, Realtime Database 읽기 및 쓰기를 관리합니다.
- - [CreateAccountUI](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/LoginUI)에서 계정 생성을 하기 위한 인증 코드 전송 및 확인과 비밀번호 일치 여부를 확인합니다.
+   - [FirebaseManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)에서 계정 생성, 로그인, Realtime Database 읽기 및 쓰기를 관리합니다.
+   - [CreateAccountUI](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/LoginUI)에서 계정 생성을 하기 위한 인증 코드 전송 및 확인과 비밀번호 일치 여부를 확인합니다.
