@@ -13,6 +13,7 @@
  * Visual Studio
 
 ## 🎮 [플레이 영상](https://youtu.be/85Ao4Fnz07Q?si=we41TdZzw4ykdpDR)
+## 🎮 [로그인 및 세이브, 로드 영상](https://youtu.be/qmDYC-1YDS4?si=C582eVutzZ3xAmLj)
 
 ## 📌 주요 기능
 * 랜덤 스킬 뽑기 및 스킬 레벨업, 새로운 스킬 추가
@@ -26,3 +27,7 @@
 * [플레이어와 가장 가까운 몬스터 찾기 및 경험치 흡수](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Player)
    - 몬스터와 경험치는 Scanner Class에서 **Physics2D.CircleCastAll** 함수로 찾습니다.
    - 경험치 흡수는 **Vector3.Lerp** 함수를 이용합니다.
+
+* Firebase를 이용한 Login 기능과 Realtime Database 관리
+ - [FirebaseManager](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/Managers)에서 계정 생성, 로그인, Realtime Database 읽기 및 쓰기를 관리합니다.
+ - [CreateAccountUI](https://github.com/GameBulle/Portfolio/tree/main/Monster%20Survival/LoginUI)에서 계정 생성을 하기 위한 인증 코드 전송 및 확인과 비밀번호 일치 여부를 확인합니다.
